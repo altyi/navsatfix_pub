@@ -1,0 +1,12 @@
+gps_publisher:
+  ros__parameters:
+    # GPS location (latitude in degrees, longitude in degrees, altitude in meters)
+    latitude: 41.0000
+    longitude: -71.001
+    altitude: 10.0
+    
+    # Publish rate in Hz
+    publish_rate: 1.0
+    
+    # Noise range in meters
+    noise_range: 20.0
