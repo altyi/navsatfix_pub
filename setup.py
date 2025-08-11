@@ -14,8 +14,6 @@ setup(
         ('share/' + package_name, ['package.xml']),
         (os.path.join('share', package_name, 'config'), glob('config/*.yaml')),
         (os.path.join('share', package_name, 'launch'), glob('launch/*.py')),
-        # Add the following line to install the python scripts into the lib directory
-        (os.path.join('lib', package_name), glob(package_name + '/*.py')),
     ],
     install_requires=['setuptools'],
     zip_safe=True,
